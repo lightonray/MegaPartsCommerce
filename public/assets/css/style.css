@@ -1,0 +1,1114 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+/* Custom styles */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navbar custom styles */
+.navbar {
+    background-color:  #19242D;
+    overflow: hidden;
+}
+
+
+.vertical-line {
+    border-left: 1px solid #394957; /* Adjust color and thickness as needed */
+    height: 32px; /* Adjust the height to match the logo's height */
+}
+
+/* Second navbar item styles */
+.secondnavbar {
+  background-color: #202D39;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; /* Center items vertically within the navbar */
+  padding: 15px; /* Simplified padding */
+  overflow-x: auto; /* Allow horizontal scrolling when content overflows */
+}
+
+
+.secondnavbar-item {
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  padding: 5px 10px; /* Adjusted padding */
+  text-decoration: none;
+  margin-right: 10px;
+  min-width: 0; /* Allow items to shrink below their content width */
+}
+
+/* White box styles */
+.white-box {
+  height: 15px; /* Keep a fixed height */
+  background: white;
+  margin-right: 5px;
+}
+
+/* Text styles */
+.secondnavbar-text {
+  color: white;
+  font-size: 18px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 500;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Add ellipsis (...) for long text */
+}
+
+/* Search styles */
+
+.search-container {
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #008AEE;
+  flex-direction: column; /* Change to column */
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+}
+
+.inner-search-conatiner {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #FEFEFE;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  overflow: hidden;
+  flex-direction: column; /* Set to column to make it vertical */
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 25px;
+  display: flex;
+  max-width: 100%;
+  margin: 40px;
+}
+
+.inner-inner-search-conatiner {
+  width: 100%; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 15px; 
+  display: inline-flex
+}
+
+.quick-search {
+  padding-top: 8px; 
+  padding-bottom: 8px; 
+  justify-content: flex-start;
+  align-items: flex-start; 
+  gap: 10px; 
+  display: flex
+}
+
+.mid-container {
+  align-self: stretch;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex
+  
+}
+
+.mid-border-conatiner {
+  padding-top: 16px; 
+  padding-bottom: 16px;
+  padding-left: 25px; 
+  padding-right: 443px; 
+  border-radius: 25px; 
+  border: 1px #008AEE solid;
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 10px; 
+  display: inline-flex
+  
+}
+
+.button-container {
+  padding-left: 30px;
+  margin-left: 10px;
+  padding-right: 30px; 
+  padding-top: 12.50px; 
+  padding-bottom: 12.50px; 
+  background: #008AEE; 
+  border-radius: 25px; 
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px; 
+  display: flex
+}
+
+.low-container {
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 10px; 
+  display: inline-flex
+}
+
+.low-inner-conatiner {
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px; 
+  background: #008AEE; 
+  border-radius: 25px; 
+  justify-content: flex-start; 
+  align-items: flex-start;
+  gap: 10px; 
+  display: flex
+}
+
+.low-inner-items {
+  padding-left: 22px; 
+  padding-right: 22px; 
+  padding-top: 6px; 
+  padding-bottom: 6px; 
+  border-radius: 25px; 
+  border: 1.50px #008AEE solid; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 10px; 
+  display: flex
+}
+
+.low-inner-items a {
+  text-decoration: none;
+}
+
+.low-inner-items-text {
+  color: #19242D; 
+  font-size: 18px; 
+  font-family: Exo 2; 
+  font-weight: 500; 
+  word-wrap: break-word;
+}
+
+
+
+/* Style banner image */
+.banner {
+    width: 100%; 
+    height: 299px
+}
+/* Styles for Features*/
+
+.feature {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 5%;
+}
+
+.feature-item {
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+  display: inline-flex;
+}
+
+.icon {
+  width: 56px;
+  height: 56px;
+}
+
+.text {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  display: inline-flex;
+}
+
+.title {
+  color: #19242D;
+  font-size: 13px;
+  font-family: Exo 2;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.description {
+  color: #777777;
+  font-size: 13px;
+  font-family: Exo 2;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+
+
+
+
+/* Styles for Swiper */
+
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin: 10px auto;
+  margin-top: 70px;
+}
+
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 271px; 
+  height: 179.54px;
+  border-radius: 15.65px; 
+  border: 2px #008AEE solid
+}
+
+.swiper-card-container {
+  width: 271px; 
+  flex-direction: column; 
+  justify-content: flex-start;
+  align-items: flex-start; 
+  gap: 4.97px; 
+  display: inline-flex
+}
+
+
+.swiper-card-description-conatiner {
+  align-self: stretch; 
+  height: 61.98px; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 2.98px; 
+  display: flex
+}
+
+.swiper-card-description {
+  align-self: stretch; 
+  color: #19242D; 
+  font-size: 14.61px; 
+  font-family: Exo 2; 
+  font-weight: 700; 
+  word-wrap: break-word
+}
+
+
+.swiper-card-price {
+  color: #5FB865; 
+  font-size: 18.78px; 
+  font-family: Exo 2; 
+  font-weight: 700; 
+  word-wrap: break-word
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  transform: translateY(-95%);  
+}
+
+
+
+/* Styles for ServicesCARDS */
+
+.service-cardcontainer {
+  width: 100%; 
+  height: 100%; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 90px; 
+  display: inline-flex; 
+  margin-top: 30px;
+  overflow-x: hidden;
+}
+
+.inner-service-cardcontainer {
+  width: 271px; 
+  height: 271px; 
+  padding-left: 15px; 
+  padding-right: 15px; 
+  padding-top: 25px; 
+  padding-bottom: 25px; 
+  border-radius: 25px; 
+  flex-direction: column; 
+  justify-content: space-between; 
+  align-items: center; 
+  display: inline-flex
+}
+
+.title-container {
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 5px; 
+  display: flex
+}
+
+.card-title-service {
+  color: white; 
+  font-size: 26px; 
+  font-family: Exo 2; 
+  font-weight: 700; 
+  word-wrap: break-word
+}
+.subtitle-card-position {
+  align-self: stretch; 
+  text-align: center
+}
+.subtitle-card {
+  align-self: stretch; 
+  text-align: center; 
+  color: #EDEDED; 
+  font-size: 16px; 
+  font-family: Exo 2; 
+  font-weight: 500; 
+  word-wrap: break-word
+}
+.explore-outter-conatiner {
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
+  display: flex
+}
+.explore-container {
+  padding-left: 15px; 
+  padding-right: 15px; 
+  padding-top: 5px; 
+  padding-bottom: 5px; 
+  background: white; 
+  border-radius: 25px; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 10px; 
+  display: inline-flex
+}
+
+.explore { 
+  font-size: 18px; 
+  font-family: Roboto;
+  font-weight: 700;
+  word-wrap: break-word
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styles for Services*/
+.main-services {
+  width: 100%; 
+  height: 100%;  
+  justify-content: center; 
+  align-items: center; 
+  gap: 60px; 
+  display: inline-flex; 
+  margin-top: 5%;
+  overflow-x: hidden;
+  background: white;
+}
+
+.main-item-div {
+  width: 300px; 
+  padding: 10px;
+  background: white; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 10px; 
+  display: inline-flex
+}
+
+.sub-item-div {
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
+  display: inline-flex
+}
+
+.item-title {
+  font-size: 20px; 
+  font-family: Roboto; 
+  font-weight: 700; 
+  word-wrap: break-word
+}
+
+.item-subtitle {
+  align-self: stretch; 
+  text-align: center; 
+  font-size: 16px; 
+  font-family: Exo 2; 
+  font-weight: 500; 
+  word-wrap: break-word
+}
+
+.megaspan {
+  color: #999999; 
+  font-size: 16px; 
+  font-family: Roboto; 
+  font-weight: 800; 
+  word-wrap: break-word
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styles for the map*/
+.mapcontainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Ensure that mapcontainer is a positioned element */
+  z-index: 1000;
+}
+
+/* Style for the image */
+.mapcontainer img {
+  margin: 5%;
+  max-width: 80%; /* Ensure the image doesn't exceed the container's width */
+  max-height: 70%; /* Ensure the image doesn't exceed the container's height */
+}
+
+
+/* Styles for footer */
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%; /* Set the width to 100% to stretch the footer */
+  background: #202D39;
+  padding: 20px;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-container {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+  flex-wrap: wrap; /* Allow containers to wrap to the next line when needed */
+}
+
+.useful-links, .online-shopping, .about-us {
+  flex: 1; /* Make the containers grow and occupy available space */
+  padding: 15px;
+  background: #19242D;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+
+.reviews {
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+.online-valuation {
+    padding: 15px;
+    background: #19242D;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.online-valuation .title {
+    color: #5FB865;
+    font-size: 16px;
+    font-family: Exo 2;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.logo {
+    width: 271px;
+    padding: 15px;
+    background: #19242D;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mega-cars-logo img {
+    width: 250px;
+}
+
+.mega-text, .mega-ads {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+}
+
+.mega, .ads {
+    color: #DC5426;
+    font-size: 25px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 900;
+    word-wrap: break-word;
+}
+
+
+.useful-links {
+    flex-direction: column;
+    display: inline-flex;
+    gap: 16px;
+    background: #19242D;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 5%;
+}
+
+.link-heading {
+    color: white;
+    font-size: 16px;
+    font-family: Exo 2;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.link {
+    color: white;
+    font-size: 14px;
+    font-family: Exo 2;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.online-valuation {
+    padding: 15px;
+    background: #19242D;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.online-valuation-heading {
+    color: #5FB865;
+    font-size: 16px;
+    font-family: Exo 2;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.online-shopping {
+    width: 271px;
+    height: 230px;
+    padding: 15px;
+    background: #19242D;
+    border-radius: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+}
+
+.shopping-heading {
+    color: white;
+    font-size: 16px;
+    font-family: Exo 2;
+    font-weight: 700;
+    word-wrap: break-word;
+    overflow: hidden; /* Hide overflowing text */
+}
+
+.shopping-links {
+    height: 159px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+    overflow: hidden; /* Hide overflowing text */
+}
+
+.shopping-link {
+    color: #FEFEFE;
+    font-size: 14px;
+    font-family: Exo 2;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.about-us {
+    width: 271px;
+    height: 230px;
+    padding: 15px;
+    background: #19242D;
+    border-radius: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+}
+
+.about-heading {
+    color: white;
+    font-size: 16px;
+    font-family: Exo 2;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.about-links {
+    color: white;
+    font-size: 14px;
+    font-family: Exo 2;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.logo {
+    width: 271px;
+    padding: 15px;
+    background: #19242D;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5%;
+}
+.footer-image {
+    width:250px;
+}
+
+
+.logo-text {
+    color: #DC5426;
+    font-size: 25px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 900;
+    word-wrap: break-word;
+}
+
+.mega-cars {
+    opacity: 0.60;
+    display: flex;
+}
+.mega-text {
+    color: #DC5426;
+    font-size: 25px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 900;
+    word-wrap: break-word;
+}
+
+
+.cars-text {
+    color: white;
+    font-size: 25px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 900;
+    word-wrap: break-word;
+}
+
+/* 3D CAROUSEL */
+.slider-container-carousel {
+  display: block;
+  height: 270px;
+  max-width: 100%; /* Set the maximum width to 100% to prevent overflow */
+  margin: 0 auto;
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 20px;
+  overflow: hidden; /* Add this property to hide overflow content */
+}
+
+.slider-carousel {
+  width: 100%; /* Make the div 100% width of its parent */
+  height: 100%; /* Make the div 100% height of its parent */
+}
+
+.slider-carousel img {
+  width: 100%; /* Make the image 100% width of its parent (the div) */
+  height: 100%; /* Make the image 100% height of its parent (the div) */
+
+}
+
+.slider-container-carousel .arrow-left {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  z-index: 9;
+  border-top: 15px solid transparent;
+  border-right: 30px solid #008AEE;
+  border-bottom: 15px solid transparent;
+}
+
+.slider-container-carousel .arrow-right {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  z-index: 9;
+  border-top: 15px solid transparent;
+  border-left: 30px solid #008AEE;
+  border-bottom: 15px solid transparent;
+}
+
+.slider-container-carousel .dots {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 30px 0;
+  user-select: none;
+}
+.slider-container-carousel .dots span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 2px;
+  cursor: pointer;
+  user-select: none;
+  padding: 10px 0;
+  position: relative;
+}
+.slider-container-carousel .dots span:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  opacity: 0.6;
+}
+
+.slider-container-carousel .dots span.active:before {
+  background-color: #c85054;
+  opacity: 1;
+}
+.slider-container-carousel .slider-carousel {
+  display: block;
+  width: 650px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  line-height: 270px;
+
+}
+
+.slider-container-carousel .slider-carousel .slide {
+  display: inline-block;
+  width: 80%;
+  height: 270px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0) scale3d(0.4, 0.4, 1);
+  transition: transform 0.3s ease-in-out 0s, z-index 0.2s ease-in-out 0.1s;
+  background-color: #2c2a40;
+}
+.slider-container-carousel .slider-carousel .slide:nth-child(odd) {
+  background-color: gray;
+}
+
+.slider-container-carousel .slider-carousel .slide:nth-child(1) {
+  background-color: transparent;
+}
+.slider-container-carousel .slider-carousel .slide:nth-child(2) {
+  background-color: transparent;
+}
+.slider-container-carousel .slider-carousel .slide:nth-child(3) {
+  background-color: transparent;
+}
+.slider-container-carousel .slider-carousel .slide:nth-child(4) {
+  background-color: transparent;
+}
+.slider-container-carousel .slider-carousel .slide:nth-child(5) {
+  background-color: transparent;
+}
+.slider-container-carousel .slider-carousel .slide.prev-2 {
+  transform: translate3d(-105%, -50%, 0) scale3d(0.4, 0.4, 1);
+  z-index: 1;
+  opacity: 0.5;
+}
+.slider-container-carousel .slider-carousel .slide.prev-1 {
+  transform: translate3d(-85%, -50%, 0) scale3d(0.6, 0.6, 1);
+  z-index: 2;
+}
+.slider-container-carousel .slider-carousel .slide.next-1 {
+  z-index: 2;
+  transform: translate3d(-15%, -50%, 0) scale3d(0.6, 0.6, 1);
+}
+.slider-container-carousel .slider-carousel .slide.next-2 {
+  z-index: 1;
+  transform: translate3d(5%, -50%, 0) scale3d(0.4, 0.4, 1);
+  opacity: 0.5;
+}
+.slider-container-carousel .slider-carousel .slide.active {
+  z-index: 3;
+  transform: translate3d(-50%, -50%, 0) scale3d(1, 1, 1);
+  box-shadow: 0px 5px 15px 3px rgba(0, 0, 0, 0.3);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .secondnavbar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .secondnavbar-item {
+        margin: 5px 0;
+    }
+    .secondnavbar-item:first-child {
+        margin-top: 0;
+ 
+    } 
+}
+
+
+@media (max-width: 720px) {
+  .navbar-brand:not(:first-child) {
+      display: none !important;
+  }
+
+  .vertical-line {
+      display: none;
+  }
+
+  .secondnavbar-item {
+      /* Remove margin-right property */
+      margin: 5px 0;
+  }
+
+  .secondnavbar-item:first-child {
+      margin-top: 0;
+  }
+}
+
+
+
+  /* Media query to hide spans when the screen width is 1410px or less */
+  @media (max-width: 1465px) {
+    .nav-link span {
+      display: none; /* Hide the spans */
+    }
+  }
+
+
+
+
+
+  @media (max-width: 400px) {
+
+    * {
+      box-sizing: border-box;
+    }
+
+    
+    .navbar .container-fluid .navbar-brand > *:first-child {
+      margin-left: 0 !important; /* Use !important to ensure the style is applied */
+    }
+
+    .secondnavbar > *:first-child {
+      margin-left: 0 !important; /* Use !important to ensure the style is applied */
+    }
+
+    .feature {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      gap: 5%;
+      flex-wrap: wrap; /* Allow items to wrap to the next line */
+  }
+  
+  .feature-item {
+      justify-content: center;
+      align-items: flex-start;
+      gap: 15px;
+      display: inline-flex;
+      width: calc(50% - 10px); /* Initially, each item takes 50% width with some gap */
+      margin: 5px; /* Add some margin for spacing */
+    }
+
+
+    .footer-container {
+      flex-direction: column; /* Stack the footer containers vertically */
+      align-items: center; /* Center align the containers when stacked */
+
+    }
+    
+    /* You can also adjust individual container styles if needed */
+    .useful-links, .online-shopping, .about-us {
+        width: 100%; /* Make each container take 100% width */
+        margin: 2px;
+    }
+    
+    .search-container {
+      max-width: 100%;
+      padding: 10px;
+    }
+    
+    .mid-border-conatiner {
+      width: 400px;
+      height: 50px;
+      padding: 0;
+      display: flex;
+      flex-direction: column; /* Change to column layout */
+      position:relative;
+    }
+    
+    .inner-inner-search-container div {
+      font-size: 20px;
+    }
+    
+    .button-container {
+      display: none;
+    }
+    
+    .quick-search i {
+      font-size: 24px;
+    }
+    
+    .mid-border-conatiner input {
+      margin: 9px;
+      margin-left: 20px;
+    }
+  
+  
+    /* Hide unnecessary items in the low-inner-items class */
+    .low-inner-items:not(:first-child) {
+      display: none;
+    }
+
+    .low-inner-conatiner {
+      display: none;
+    }
+
+    .main-services {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items horizontally */
+      gap: 10px; /* Adjust gap between items */
+    }
+  
+    .main-item-div {
+      width: 80%; /* Make items take full width */
+    }
+
+
+    .service-cardcontainer {
+      flex-direction: column; /* Change from inline-flex to column layout */
+      gap: 20px; /* Adjust the gap to your preference */
+    }
+  
+    .inner-service-cardcontainer {
+      width: 100%; /* Make the width full-width when in column layout */
+      height: auto; /* Remove the fixed height */
+    }
+  
+    .title-container {
+      flex-direction: column; /* Change to a column layout for titles */
+      gap: 10px; /* Adjust the gap for titles */
+    }
+      
+
+    .inner-service-cardcontainer {
+      display: none; /* Hide the inner-service-cardcontainer */
+    }
+  
+    .slider-container-carousel {
+      display: none;
+    }
+
+
+    .slider-carousel {
+      display: none;
+    }
+
+    .arrow-left {
+      display: none;
+    }
+    
+    .arrow-right {
+      display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
