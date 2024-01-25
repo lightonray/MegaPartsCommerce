@@ -3,7 +3,7 @@ MegaParts Commerce is a robust and user-friendly web application developed in La
 
 Key Features:
 
-User Registration and Login: Users can create accounts or log in through the following link: http://localhost:8000/, which serves as the landing page. The registration process is hassle-free and offers a convenient way for customers to access your e-commerce platform.
+User Registration and Login
 
 Admin Login: Administrators can log in with the following credentials:
 
